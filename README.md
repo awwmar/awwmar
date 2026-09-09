@@ -72,19 +72,6 @@ A hands-on quantum-computing learning suite covering Bell states, teleportation,
 
 <br />
 
-## GitHub at a glance
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=awwmar&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Amar's GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=awwmar&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Most-used languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=awwmar&theme=github-compact&hide_border=true&area=true" width="96%" alt="Contribution graph" />
-</div>
-
-<br />
-
 <details>
   <summary><b>What I value as an engineer</b></summary>
   <br />
