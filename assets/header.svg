@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Amar Kumar — Software Engineer</title>
+  <desc id="desc">Animated blue and violet welcome banner</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="0.5" stop-color="#102449"/>
+      <stop offset="1" stop-color="#20104a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+    <clipPath id="reveal"><rect x="225" y="80" width="0" height="75"><animate attributeName="width" from="0" to="750" dur="1.5s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <g opacity=".22" fill="#67e8f9">
+    <circle cx="90" cy="62" r="5"><animate attributeName="cy" values="62;82;62" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="220" r="7"><animate attributeName="cy" values="220;190;220" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="72" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2.5s" repeatCount="indefinite"/></circle>
+  </g>
+  <path d="M0 238 C210 185 325 285 550 232 S900 180 1200 240 V300 H0Z" fill="#312e81" opacity=".28">
+    <animate attributeName="d" values="M0 238 C210 185 325 285 550 232 S900 180 1200 240 V300 H0Z;M0 225 C190 270 360 190 565 238 S930 280 1200 218 V300 H0Z;M0 238 C210 185 325 285 550 232 S900 180 1200 240 V300 H0Z" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <ellipse cx="600" cy="151" rx="390" ry="85" fill="#6366f1" opacity=".12" filter="url(#glow)"/>
+  <g text-anchor="middle" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif">
+    <text x="600" y="60" fill="#a5f3fc" font-size="18" letter-spacing="5">HELLO, WORLD — I'M</text>
+    <text x="600" y="133" fill="url(#accent)" font-size="58" font-weight="800" clip-path="url(#reveal)">AMAR KUMAR</text>
+    <rect x="316" y="147" width="568" height="2" rx="1" fill="url(#accent)"><animate attributeName="width" values="0;568" dur="1.7s" fill="freeze"/></rect>
+    <text x="600" y="193" fill="#dbeafe" font-size="24">Software Engineer · ML Explorer · Problem Solver</text>
+    <text x="600" y="231" fill="#94a3b8" font-size="16">Building thoughtful systems, one experiment at a time.</text>
+  </g>
+  <g font-family="monospace" font-size="14" fill="#67e8f9" opacity=".55">
+    <text x="42" y="278">{ learn; build; iterate; }</text>
+    <text x="955" y="278">status: curious_</text>
+  </g>
+</svg>
+
